@@ -112,6 +112,26 @@ body {
   transform: scale(1.2);
 }
 
+/*offers*/
+#offers {
+  background: url(img/14.jpg) center/cover no-repeat;
+}
+
+#offers.row {
+  min-height: 60vh;
+}
+
+.offers-content span {
+  font-size: 28px;
+}
+.offers-content h2 {
+  font-size: 60px;
+  font-family: var(--lg-font);
+}
+.offers-content .btn {
+  border-color: transparent !important;
+}
+
 /*media queries*/
 @media (min-width: 992px) {
   .nav-item {
