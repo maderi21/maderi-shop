@@ -167,6 +167,12 @@ footer .brand {
   font-family: var(--lg-font);
   letter-spacing: 2px;
 }
+footer a {
+  transition: color 0.3s ease;
+}
+footer a:hover {
+  color: var(--pink) !important;
+}
 
 /*media queries*/
 @media (min-width: 992px) {
