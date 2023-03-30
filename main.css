@@ -162,6 +162,12 @@ body {
   border-color: #000;
 }
 
+/* footer */
+footer .brand {
+  font-family: var(--lg-font);
+  letter-spacing: 2px;
+}
+
 /*media queries*/
 @media (min-width: 992px) {
   .nav-item {
